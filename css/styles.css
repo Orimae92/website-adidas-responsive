@@ -1,0 +1,797 @@
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+h3 {
+  font-family: 'Teko', sans-serif;
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: 'Teko', sans-serif;
+  font-size: 1.5rem;
+  padding: 25px 0 25px;
+}
+
+h6 {
+  font-size: 12rem;
+  font-family: 'Teko', cursive;
+  font-weight: normal;
+  margin: 0;
+  position: relative;
+  height: 5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0;
+}
+
+span {
+  color: gold;
+}
+
+hr {
+  margin: 30px 0 10px;
+}
+
+.col {
+  padding-left: 0;
+}
+
+.container-fluid {
+  padding: 1% 7% 5%;
+}
+
+/* Navbar */
+.navbar {
+  margin-bottom: 2%;
+  position: relative;
+  /* height: 80px */
+}
+
+.nav-item {
+  padding: 0 7px;
+}
+
+.my-nav-link {
+  padding: 8px;
+  color: grey;
+  text-decoration: none;
+}
+
+.my-nav-link:hover {
+  color: gold;
+}
+
+.search {
+  border: 0 grey solid;
+}
+
+.btn-navbar {
+  border: 0;
+}
+
+.btn-navbar:hover {
+  color: gold;
+}
+
+.navbar-brand {
+  position: relative;
+}
+
+.section-2-navbar {
+  position: absolute;
+  right: 90px;
+}
+
+.section-button-navbar {
+  position: absolute;
+  right: 0px;
+}
+
+/* Title + Image-title */
+.row {
+  margin: 0;
+}
+
+.div-title {
+  padding: 2% 8% 1% 0;
+}
+
+.p-title {
+  margin: 25px 0;
+}
+
+.btn-title {
+  margin-bottom: 40px;
+}
+
+/* Tiny shoes in the column left */
+.div-tiny-image {
+  background-color: black;
+  border-radius: 5%;
+}
+
+.tiny-image {
+  background-color: white;
+  border-radius: 5%;
+  margin: 5px;
+  height: 100%;
+  padding: 10% 5%;
+}
+
+.tiny-description {
+  color: white;
+  padding: 3.5%;
+}
+
+.tiny-imgs-title {
+  height: 100%;
+  width: 100%;
+}
+
+.tiny-name-shoe {
+  font-family: 'Teko', cursive;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.tiny-rating-shoe {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.7rem;
+  color: grey;
+  opacity: 0.8;
+}
+
+.tiny-price-shoe {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.3rem;
+}
+
+.tiny-type-shoe {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.6rem;
+}
+
+.tiny-add-cart {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: gold;
+}
+
+/* Column right */
+.div-img-title {
+  text-align: center;
+  background-color: rgba(220, 220, 220, 0.4);
+  position: relative;
+  border-radius: 10%;
+  padding: 2.5% 0 0;
+}
+
+.img-title {
+  width: 80%;
+  bottom: 150px;
+  position: relative;
+  top: 0px;
+  z-index: 1;
+}
+
+.div-price-image {
+  text-align: center;
+  margin: 30px 0 10px;
+}
+
+.h4-price-image {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stars-title {
+  font-size: 0.6rem;
+}
+
+.buy-btn-image {
+  width: 120px;
+}
+
+.price-title-image {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-right: 15px;
+  position: relative;
+  top: 4.5px;
+}
+
+/* Data number Section */
+.data-number-section {
+  margin-top: 5%;
+}
+
+.data-number {
+  padding: 0 5%;
+  border-right: 1px solid gold;
+  text-align: center;
+}
+
+.data-number .p-title {
+  margin: 0;
+}
+
+.last-number {
+  border-right: 0;
+}
+
+/* Section - Features */
+#features {
+  background-color: rgba(220, 220, 220, 0.4);
+  text-align: center;
+  padding: 5% 12%;
+}
+
+.feature-box {
+  padding: 0;
+}
+
+.div-margin {
+  margin: 15px;
+  padding: 2%;
+  background-color: white;
+}
+
+.feature-icon {
+  margin: 16px;
+}
+
+.feature-icon:hover {
+  color: gold;
+}
+
+.feature-box h3 {
+  color: gold;
+}
+
+#features p {
+  color: grey;
+}
+
+/* Section Collection */
+#collection {
+  padding: 5% 12%;
+  text-align: center;
+}
+
+.tab-name {
+  font-family: 'Teko', sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.left-tab {
+  text-align: left;
+}
+
+.center-tab {
+  text-align: center;
+}
+
+.right-tab {
+  text-align: right;
+}
+
+.tabs-collection .col {
+  padding: 15px 0 30px;
+}
+
+.tab-name:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
+.carousel-btn-left {
+  position: relative;
+  display: inline;
+}
+
+.carousel-btn-right {
+  position: relative;
+  display: inline;
+}
+
+.nav-shoe-selected {
+  /*Class that I hide and unhide with Javascript*/
+  padding-top: 10px;
+  margin: 0px 10px 25px;
+  visibility: hidden;
+}
+
+.div-shoe {
+  color: black;
+  padding: 0;
+}
+
+.div-col-left {
+  text-align: left;
+  padding: 0;
+}
+
+.div-col-right {
+  text-align: right;
+  padding: 0;
+}
+
+.btn-sell {
+  border-radius: 0;
+  font-size: 0.8rem;
+  width: 35%;
+}
+
+.fa-collection {
+  margin: 10px;
+}
+
+span.fa-collection {
+  /* color: black; */
+  margin-right: 0;
+}
+
+.fa-collection .fa-star {
+  color: gold;
+}
+
+.fa-cart-shopping.fa-collection:hover, .fa-heart.fa-collection:hover {
+  color: gold;
+}
+
+.div-img-collection {
+  text-align: center;
+}
+
+.img-collection {
+  width: 70%;
+}
+
+.div-margin-collection {
+  background-color: rgba(220, 220, 220, 0.4);
+  margin: 12.5px;
+}
+
+.name-shoe-collection {
+  text-align: center;
+  margin: 12.5px;
+}
+
+.shoe-selected {
+  /*Class that I add with Javascript*/
+  background-color: black;
+  color: white;
+}
+
+/* Section Testimonials */
+#testimonials {
+  background-color: rgba(220, 220, 220, 0.4);
+  text-align: center;
+  padding: 5% 12%;
+}
+
+#carousel-testimonials {
+  padding-top: 15px;
+}
+
+.div-card img {
+  width: 100%;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card h4 {
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.card h5 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.8rem;
+  color: gold;
+  text-align: left;
+  margin: 0;
+}
+
+.card p {
+  text-align: left;
+  color: grey;
+}
+
+.div-card {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+/* Section Newsletter */
+#newsletters {
+  background-image: url("../images/newsletter.jpg");
+  background-size: cover;
+  padding: 5% 12%;
+  text-align: center;
+}
+
+#newsletters h2 {
+  color: white;
+}
+
+#newsletters p {
+  padding: 0 15%;
+  color: white;
+}
+
+.input-mail-newsletter {
+  padding: 3% 25% 0;
+}
+
+/* Section Contact */
+#contact {
+  padding: 5% 12% 0;
+  background-color: white;
+}
+
+#contact img {
+  width: 60px;
+  height: 48px;
+  margin-bottom: 15px;
+}
+
+#contact p {
+  margin-bottom: 15px;
+  color: grey;
+}
+
+#contact h4, #contact a {
+  padding: 0;
+  display: block;
+  line-height: 1.7;
+}
+
+.fa-contact {
+  margin-right: 30px;
+  font-size: 1.6rem;
+}
+
+.fa-contact:hover {
+  color: gold;
+}
+
+/* Section Footer */
+#footer {
+  padding: 0 12%;
+  text-align: center;
+  color: grey;
+}
+
+@media(max-width: 1516px) {
+  .div-title {
+    padding: 2% 6% 1% 0;
+  }
+}
+
+@media(max-width: 1448px) {
+  .div-title {
+    padding: 2% 4% 1% 0;
+  }
+}
+
+@media(max-width: 1385px) {
+  .div-title {
+    padding: 2% 2% 1% 0;
+  }
+
+  .div-img-title {
+    padding: 4% 0 0;
+  }
+}
+
+@media(max-width: 1329px) {
+  .tiny-name-shoe {
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 1220px) {
+  .tiny-name-shoe {
+    font-size: 0.9rem;
+  }
+
+  .tiny-rating-shoe {
+    font-size: 0.7rem;
+  }
+
+  .tiny-price-shoe {
+    font-size: 1.2rem;
+  }
+
+  .tiny-type-shoe {
+    font-size: 0.6rem;
+  }
+
+  .tiny-add-cart {
+    font-size: 0.8rem;
+  }
+
+  .div-img-title {
+    padding: 6% 0 0;
+  }
+}
+
+@media(max-width: 1185px) {
+  .div-title {
+    padding: 2% 0 1% 0;
+  }
+}
+
+@media(max-width: 1120px) {
+  .tiny-name-shoe {
+    font-size: 0.9rem;
+  }
+
+  .tiny-rating-shoe {
+    font-size: 0.6rem;
+  }
+
+  .tiny-price-shoe {
+    font-size: 1rem;
+  }
+
+  .tiny-type-shoe {
+    font-size: 0.6rem;
+  }
+
+  .tiny-add-cart {
+    font-size: 0.8rem;
+  }
+
+  .div-img-title {
+    padding: 8% 0 0;
+  }
+
+  #contact a {
+    font-size: 0.9rem;
+  }
+
+  #contact h4 {
+    font-size: 1.3rem;
+  }
+
+  @media(max-width: 1069px) {
+    .div-title {
+      width: 100%;
+      text-align: center;
+      padding-right: 0;
+    }
+
+    .div-img-title {
+      width: 100%;
+      text-align: center;
+      padding: 2.5% 0 4.5%;
+    }
+
+    .row-order-1 {
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+
+    .row-order-2 {
+      text-align: left;
+      padding: 0 13% 3% 13%;
+    }
+
+    .tiny-image {
+      padding: 8% 3%;
+    }
+
+    .tiny-name-shoe {
+      font-size: 1.1rem;
+      ;
+    }
+
+    .tiny-rating-shoe {
+      font-size: 0.7rem;
+    }
+
+    .tiny-price-shoe {
+      font-size: 1.3rem;
+    }
+
+    .tiny-type-shoe {
+      font-size: 0.6rem;
+    }
+
+    .tiny-add-cart {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media(max-width: 1029px) {
+    #contact a {
+      font-size: 0.8rem;
+    }
+
+    #contact h4 {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media(max-width: 991.9px) {
+    .section-2-navbar {
+      position: static;
+    }
+
+    .section-button-navbar {
+      position: static;
+    }
+
+    .my-nav-link {
+      text-decoration: none;
+      padding-top: 0px;
+    }
+
+    .my-nav-link:hover {
+      border-top: 0;
+      color: gold;
+    }
+
+    .search {
+      border: 1px grey solid;
+    }
+
+    .div-margin {
+      margin: 15px;
+    }
+
+    #contact{
+      text-align: center;
+    }
+
+    #contact a {
+      font-size: 1rem;
+    }
+
+    #contact h4 {
+      font-size: 1.5rem;
+    }
+
+    .col-contact{
+      margin-bottom: 30px;
+    }
+  }
+
+  @media(max-width: 895px) {
+    .tiny-image {
+      padding: 8% 3%;
+    }
+
+    .tiny-name-shoe {
+      font-size: 0.9rem;
+    }
+
+    .tiny-rating-shoe {
+      font-size: 0.7rem;
+    }
+
+    .tiny-price-shoe {
+      font-size: 1.2rem;
+    }
+
+    .tiny-type-shoe {
+      font-size: 0.6rem;
+    }
+
+    .tiny-add-cart {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media(max-width: 831px) {
+    .tiny-image {
+      padding: 10% 3%;
+    }
+  }
+
+  @media(max-width: 767.9px) {
+    .fa-navbar {
+      font-size: 1.25rem;
+    }
+  }
+
+  @media(max-width: 757px) {
+    .tiny-image {
+      padding: 11% 3%;
+    }
+  }
+
+  @media(max-width: 727px) {
+    .tiny-image {
+      padding: 13% 3%;
+    }
+
+    .p-title .price-title-image {
+      font-size: 1.5rem;
+    }
+
+    .data-number .p-title {
+      font-size: 1rem;
+    }
+  }
+
+  @media(max-width: 696px) {
+    .row-order-2 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .tiny-image {
+      padding: 6% 0%;
+    }
+
+    .tiny-add-cart {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media(max-width: 676px) {
+    .tiny-image {
+      padding: 8% 3%;
+    }
+  }
+
+  @media(max-width: 625px) {
+    .p-title .price-title-image {
+      font-size: 1.3rem;
+    }
+
+    .data-number .p-title {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media(max-width: 620px) {
+    .tiny-image {
+      padding: 9% 3%;
+    }
+  }
+
+  @media(max-width: 601px) {
+    .tiny-name-shoe {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media(max-width: 576px) {
+    .tiny-image {
+      padding: 11% 3%;
+    }
+  }
